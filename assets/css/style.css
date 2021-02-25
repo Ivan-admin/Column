@@ -1,0 +1,45 @@
+@import "./reset.css";
+@import "./custom-column.css";
+@import "./header.css";
+:root {
+  --theme-color: #292c46;
+}
+
+.label-font {
+  font-family: "Montserrat", sans-serif;
+}
+
+.background-image {
+  max-height: 100px;
+  min-width: 100%;
+}
+.blocks-section {
+  border: 10px solid red;
+  border-radius: 15px;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-block-header {
+  font-size: 1.1em;
+  padding: 5px;
+}
+.info-block-text {
+  font-size: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 200;
+}
+
+
+
+.info-block-image {
+  height: 5%;
+ width: 24.7%;
+}
+article > div {
+  padding: 35px 35px 35px 35px;
+}
